@@ -1,0 +1,126 @@
+.gallery-title {
+    font-family: GillSans;
+    font-size: 25px;
+    margin-left: 160px;
+    margin-top: 85px;
+}
+  
+.gallery-title p {
+    border-bottom: 2px solid black;
+    width: 280px;
+}
+
+.charcuterie {
+    background-image: url("../images/1_1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 390px;
+    width: 1190px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+  
+.food-festival-title {
+    color: #FFD140;
+    font-family: GillSans;
+    font-size: 100px;
+    margin-left: 135px;
+}
+  
+.gallery-paragraph {
+    display: flex;
+    flex-flow: row nowrap;
+}
+  
+.left-column-gallery {
+    font-family: GillSans;
+    font-style: italic;
+    width: 468px;
+    padding-top: 45px;
+    line-height: 22px;
+    margin-left: 170px;
+    font-size: 16px;
+}
+  
+.right-column-gallery {
+    font-family: GillSans;
+    font-style: italic;
+    width: 468px;
+    line-height: 22px;
+    margin-left: 170px;
+    padding-top: 45px;
+    font-size: 16px;
+}
+  
+.concert {
+    background-image: url("../images/2_2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 390px;
+    width: 1190px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+  
+.deejay-title {
+    color: #EE4367;
+    font-family: GillSans;
+    font-size: 100px;
+    margin-left: 155px;
+}
+  
+.lecture {
+    background-image: url("../images/3_3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 390px;
+    width: 1190px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+  
+.speech-title {
+    color: #08AD69;
+    font-family: GillSans;
+    font-size: 100px;
+    margin-left: 155px;
+}
+  
+.restaurant {
+    background-image: url("../images/4_4.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 390px;
+    width: 1190px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+  
+.open-foodfest-title {
+    color: #540D6E;
+    font-family: GillSans;
+    font-size: 100px;
+    margin-left: 155px;
+}
+  
+.toronto {
+    background-image: url("../images/5_5.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 390px;
+    width: 1190px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+  
+.international-title {
+    color: #3BCEAB;
+    font-family: GillSans;
+    font-size: 100px;
+    margin-left: 155px;
+}

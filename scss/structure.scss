@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+   html, body {
+    height: 100%
+   }
+   h1, h2, h3, h4, h5, h6, p {
+    margin-bottom: 16px
+   }
+
+     
+@font-face {
+    font-family: GillSans;
+    src: url(../fonts/GillSans.ttc);
+}
+
+@font-face {
+    font-family: PTSerifBold;
+    src: url(../fonts/PTSerif-Bold.ttf);
+}
+
+@font-face {
+    font-family: PTSerifBoldIta;
+    src: url(../fonts/PTSerif-BoldItalic.ttf);
+}
+
+@font-face {
+    font-family: PTSerifIta;
+    src: url(../fonts/PTSerif-Italic.ttf);
+}
+
+@font-face {
+    font-family: PTSerifRegular;
+    src: url(../fonts/PTSerif-Regular.ttf);
+}
+
+.row {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-border {
+    border-bottom: 2px solid white;
+    width: 1160px;
+    margin: 0 auto;
+    padding-top: 3em;
+}
+
+.eventsy-paragraph {
+    color: #FFD140;
+    font-family: GillSans;
+    font-style: italic;
+    margin-left: 300px;
+    font-weight: bold;
+    width: 1020px;
+    margin-top: 65px;
+}
+
+.eventsy-name {
+    font-family: PTSerifRegular;
+    color: #EE4367;
+    font-style: normal;
+}
+  
+.eventsy-occupation {
+    font-family: PTSerifRegular;
+    color: #A8A8A8;
+    font-style: normal;
+    font-size: 10px;
+    margin-bottom: 68px;
+}
+
+.upcoming-event {
+    font-family: GillSans;
+    font-size: 25px;
+    color: #FFFFFF;
+    padding-left: 119px; 
+    margin-bottom: 50px;
+}
+  
+.upcoming-event p {
+    border-bottom: 2px solid white;
+    width: 550px;
+}
+  
+.events-items {
+    display: flex;
+    flex-flow: row nowrap;
+}
+  
+.events-row {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.events-month {
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.events-title {
+    font-family: GillSans;
+    font-size: 15px;
+    height: 41px;
+    width: 140px;
+    color: white;
+}
+
+.events-date {
+    font-size: 22px;
+    font-family: GillSans;
+    font-weight: bold;
+    background-color: #EE4367;
+    color: white;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 10px;
+    padding-top: 12px;
+    margin-right: 19px;
+}
+
+.events-paragraph {
+    flex-flow: column nowrap;
+}
+
+.events-description {
+    font-size: 13px;
+    color: #EE4367;
+    font-family: GillSans;
+    width: 140px;
+    height: 78px;
+}
+
+.title {
+    color: white;
+    text-align: center;
+    margin-top: 75px;
+    font-family: PTSerifRegular;
+    font-size: 25px;
+}
+
+.title h2 {
+    font-family: GillSans;
+    font-style: italic;
+    color: #EE4367;
+    font-size: 20px;
+}
+
+.button p {
+    font-family: GillSans;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    font-style: normal;
+    padding-top: 8px;
+}
+  
+.title p {
+    font-size: 20px;
+    font-family: GillSans;
+    font-style: italic;
+    color: white;
+    padding-top: 25px;
+}
+
+.gallery-pictures {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.left-column-gallery {
+    font-family: GillSans;
+    font-style: italic;
+    width: 468px;
+    padding-top: 45px;
+    line-height: 22px;
+    margin-left: 170px;
+    font-size: 16px;
+}
+  
+.right-column-gallery {
+    font-family: GillSans;
+    font-style: italic;
+    width: 468px;
+    line-height: 22px;
+    margin-left: 170px;
+    padding-top: 45px;
+    font-size: 16px;
+}
+
+::placeholder {
+    font-family: GillSans;
+    font-size: 16px;
+    padding-left: 15px;
+}

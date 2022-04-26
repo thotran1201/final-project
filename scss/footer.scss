@@ -1,0 +1,68 @@
+.footer {
+    background-color: #EE4367;
+    margin-top: 110px;
+    padding-bottom: 15px;
+}
+  
+.footer-logo img {
+    padding-left: 720px;
+    margin-top: 30px;
+}
+  
+.address {
+    color: white;
+    font-family: GillSans;
+    text-align: center;
+    margin-top: 35px;
+    line-height: 10px;
+}
+  
+.eventsy-contact {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+  
+.rectangle-newsletter {
+    height: 50px;
+    width: 705px;
+    margin-top: 34px;
+    margin-left: 80px;
+    background-color: #F56B88;
+    border: none;
+    border-color: #EE4367;
+}
+
+.newsletter-button {
+    background-color: white;
+    color: #EE4367;
+    font-family: GillSans;
+    padding-top: 16px;
+    text-align: center;
+    width: 100px;
+    height: 47.5px;
+    margin-top: 35px;
+  }
+  
+.form-row {
+    text-align: center;
+}
+  
+.fa {
+    padding: 23px;
+    padding-left: 40px;
+    font-size: 30px;
+    width: 50px;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    margin-top: 11px;
+}
+  
+.copyright {
+    font-family: GillSans;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 17px;
+    margin-left: 23px;
+}

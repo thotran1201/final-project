@@ -1,0 +1,126 @@
+.blog-title {
+    font-family: GillSans;
+    font-size: 25px;
+    margin-left: 160px;
+    margin-top: 85px;
+}
+  
+.blog-title p {
+    border-bottom: 2px solid black;
+    width: 280px;
+}
+
+.blog-item {
+    display: flex;
+    flex-flow: row nowrap;
+}
+  
+.blog-row {
+    display: flex;
+    flex-flow: row nowrap;
+    padding-left: 140px;
+}
+
+.blog-date {
+    font-family: GillSans;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #EE4367;
+    width: 60px;
+    height: 60px;
+    margin-left: 20px;
+    margin-top: 30px;
+    line-height: 6px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 13px;
+}
+  
+.blog-month {
+    color: white;
+    font-weight: lighter;
+}
+
+.blog-pic {
+    background-image: url("../images/blog.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 140px;
+    width: 380px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+  
+.blog-paragraph-subtitle {
+    font-family: GillSans;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+  
+.blog-paragraph {
+    font-family: GillSans;
+    font-size: 13.5px;
+    font-style: normal;
+    color: #EE4367;
+    margin-left: 20px;
+    width: 393px;
+    line-height: 16px;
+}
+
+.blog-one {
+    padding-top: 100px;
+}
+  
+.section-blog {
+    background-image: url("../images/blog_2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 1200px;
+    margin-left: 177px;
+    margin-top: 20px;
+    display: block;
+}
+
+.date-blog {
+    font-family: GillSans;
+    font-size: 55px;
+    font-weight: bold;
+    color: white;
+    background-color: #EE4367;
+    height: 155.25px;
+    width: 155.25px;
+    text-align: center;
+    padding-top: 16px;
+    display: inline-block;
+    margin-top: 60px;
+    margin-bottom: 70px;
+    margin-left: 510px;
+  }
+  
+.month-blog {
+    font-weight: lighter;
+    font-size: 31px;
+}
+  
+.title-paragraph {
+    color: #EE4367;
+    font-family: GillSans;
+    font-style: normal;
+    font-size: 20px;
+    padding-left: 175px;
+    padding-top: 40px;
+}
+  
+.paragraph-story {
+    font-family: GillSans;
+    padding-left: 175px;
+    padding-top: 17px;
+    width: 1200px;
+    height: 125px;
+}

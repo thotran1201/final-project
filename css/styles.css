@@ -1,0 +1,717 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 16px;
+}
+
+@font-face {
+  font-family: GillSans;
+  src: url(../fonts/GillSans.ttc);
+}
+@font-face {
+  font-family: PTSerifBold;
+  src: url(../fonts/PTSerif-Bold.ttf);
+}
+@font-face {
+  font-family: PTSerifBoldIta;
+  src: url(../fonts/PTSerif-BoldItalic.ttf);
+}
+@font-face {
+  font-family: PTSerifIta;
+  src: url(../fonts/PTSerif-Italic.ttf);
+}
+@font-face {
+  font-family: PTSerifRegular;
+  src: url(../fonts/PTSerif-Regular.ttf);
+}
+
+.row {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  padding-left: 25px;
+  text-decoration: none;
+  color: white;
+  border-right: 1px solid #EE4367;
+  border-spacing: 2px;
+  font-family: GillSans;
+}
+
+.banner-image {
+  background-image: url("../images/home-hero2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+}
+
+.banner-border {
+  border-bottom: 2px solid white;
+  width: 1160px;
+  margin: 0 auto;
+  padding-top: 3em;
+}
+
+.eventsy-paragraph {
+  color: #FFD140;
+  font-family: GillSans;
+  font-style: italic;
+  margin-left: 300px;
+  font-weight: bold;
+  width: 1020px;
+  margin-top: 65px;
+}
+
+.eventsy-name {
+  font-family: PTSerifRegular;
+  color: #EE4367;
+  font-style: normal;
+}
+
+.eventsy-occupation {
+  font-family: PTSerifRegular;
+  color: #A8A8A8;
+  font-style: normal;
+  font-size: 10px;
+  margin-bottom: 68px;
+}
+
+.eventsy-events {
+  background-color: #540D6E;
+  height: 320px;
+}
+
+.upcoming-event {
+  font-family: GillSans;
+  font-size: 25px;
+  color: #FFFFFF;
+  padding-left: 119px; 
+  margin-bottom: 50px;
+}
+
+.upcoming-event p {
+  border-bottom: 2px solid white;
+  width: 550px;
+}
+
+.events-items {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.events-row {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.events-date {
+  font-size: 22px;
+  font-family: GillSans;
+  font-weight: bold;
+  background-color: #EE4367;
+  color: white;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  line-height: 10px;
+  padding-top: 12px;
+  margin-right: 19px;
+}
+
+.events-month {
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.events-title {
+  font-family: GillSans;
+  font-size: 15px;
+  height: 41px;
+  width: 140px;
+  color: white;
+}
+
+.events-paragraph {
+  flex-flow: column nowrap;
+}
+
+.events-description {
+  font-size: 13px;
+  color: #EE4367;
+  font-family: GillSans;
+  width: 140px;
+  height: 78px;
+}
+
+.title {
+  color: white;
+  text-align: center;
+  margin-top: 75px;
+  font-family: PTSerifRegular;
+  font-size: 25px;
+}
+
+.title h2 {
+  font-family: GillSans;
+  font-style: italic;
+  color: #EE4367;
+  font-size: 20px;
+}
+
+.title p {
+  font-size: 20px;
+  font-family: GillSans;
+  font-style: italic;
+  color: white;
+  padding-top: 25px;
+}
+
+.button {
+  width: 121.62px;
+  height: 40.04px;
+  background-color: #EE4367;
+  margin: 0 auto;
+  margin-top: 25px;
+}
+
+.button p {
+  font-family: GillSans;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  font-style: normal;
+  padding-top: 8px;
+}
+
+.dessert-banner {
+  background-image: url("../images/about2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 390px;
+  width: 1190px;
+  margin: 0 auto;
+  margin-top: 80px;
+}
+
+.about-title {
+  font-family: GillSans;
+  font-size: 25px;
+  margin-left: 160px;
+  margin-top: 34px;
+}
+
+.about-title p {
+  border-bottom: 2px solid black;
+  width: 300px;
+}
+
+.about-paragraph {
+  font-family: GillSans;
+  font-style: italic;
+  font-size: 16px;
+  width: 1330px;
+  padding-left: 160px;
+  margin-top: 34px;
+}
+
+.gallery-title {
+  font-family: GillSans;
+  font-size: 25px;
+  margin-left: 160px;
+  margin-top: 85px;
+}
+
+.gallery-title p {
+  border-bottom: 2px solid black;
+  width: 280px;
+}
+
+.gallery-pictures {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.gallery-charcuterie {
+  background-image: url("../images/1_1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 187px;
+  width: 489px;
+  margin-left: 160px;
+}
+
+.gallery-concert {
+  background-image: url("../images/2_2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 187px;
+  width: 187px;
+  margin-left: 20px;
+}
+
+.gallery-lecture-hall {
+  background-image: url("../images/3_3.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 187px;
+  width: 265px;
+  margin-left: 20px;
+}
+
+.gallery-restaurant {
+  background-image: url("../images/4_4.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 306px;
+  width: 603px;
+  margin-left: 160px;
+  margin-top: 20px;
+}
+
+.gallery-toronto {
+  background-image: url("../images/5_5.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 306px;
+  width: 355px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.charcuterie {
+  background-image: url("../images/1_1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 390px;
+  width: 1190px;
+  margin: 0 auto;
+  margin-top: 80px;
+}
+
+.food-festival-title {
+  color: #FFD140;
+  font-family: GillSans;
+  font-size: 100px;
+  margin-left: 135px;
+}
+
+.gallery-paragraph {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.left-column-gallery {
+  font-family: GillSans;
+  font-style: italic;
+  width: 468px;
+  padding-top: 45px;
+  line-height: 22px;
+  margin-left: 170px;
+  font-size: 16px;
+}
+
+.right-column-gallery {
+  font-family: GillSans;
+  font-style: italic;
+  width: 468px;
+  line-height: 22px;
+  margin-left: 170px;
+  padding-top: 45px;
+  font-size: 16px;
+}
+
+.concert {
+  background-image: url("../images/2_2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 390px;
+  width: 1190px;
+  margin: 0 auto;
+  margin-top: 80px;
+}
+
+.deejay-title {
+  color: #EE4367;
+  font-family: GillSans;
+  font-size: 100px;
+  margin-left: 155px;
+}
+
+.lecture {
+  background-image: url("../images/3_3.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 390px;
+  width: 1190px;
+  margin: 0 auto;
+  margin-top: 80px;
+}
+
+.speech-title {
+  color: #08AD69;
+  font-family: GillSans;
+  font-size: 100px;
+  margin-left: 155px;
+}
+
+.restaurant {
+  background-image: url("../images/4_4.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 390px;
+  width: 1190px;
+  margin: 0 auto;
+  margin-top: 80px;
+}
+
+.open-foodfest-title {
+  color: #540D6E;
+  font-family: GillSans;
+  font-size: 100px;
+  margin-left: 155px;
+}
+
+.toronto {
+  background-image: url("../images/5_5.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 390px;
+  width: 1190px;
+  margin: 0 auto;
+  margin-top: 80px;
+}
+
+.international-title {
+  color: #3BCEAB;
+  font-family: GillSans;
+  font-size: 100px;
+  margin-left: 155px;
+}
+
+.blog-title {
+  font-family: GillSans;
+  font-size: 25px;
+  margin-left: 160px;
+  margin-top: 85px;
+}
+
+.blog-title p {
+  border-bottom: 2px solid black;
+  width: 280px;
+}
+
+.blog-item {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.blog-row {
+  display: flex;
+  flex-flow: row nowrap;
+  padding-left: 140px;
+}
+
+.blog-date {
+  font-family: GillSans;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background-color: #EE4367;
+  width: 60px;
+  height: 60px;
+  margin-left: 20px;
+  margin-top: 30px;
+  line-height: 6px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 13px;
+}
+
+.blog-month {
+  color: white;
+  font-weight: lighter;
+}
+
+.blog-pic {
+  background-image: url("../images/blog.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 140px;
+  width: 380px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.blog-paragraph-subtitle {
+  font-family: GillSans;
+  font-size: 15px;
+  font-weight: bold;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.blog-paragraph {
+  font-family: GillSans;
+  font-size: 13.5px;
+  font-style: normal;
+  color: #EE4367;
+  margin-left: 20px;
+  width: 393px;
+  line-height: 16px;
+}
+
+.blog-one {
+  padding-top: 100px;
+}
+
+.section-blog {
+  background-image: url("../images/blog_2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  width: 1200px;
+  margin-left: 177px;
+  margin-top: 20px;
+  display: block;
+}
+
+/**.date-blog {
+  font-family: GillSans;
+  font-size: 23px;
+  font-weight: bold;
+  color: white;
+  background-color: #EE4367;
+  width: 100px;
+  height: 100px;
+  line-height: 13px;
+  text-align: center;
+  padding-top: 117px;
+  margin: 0 auto;
+}**/
+
+.date-blog {
+  font-family: GillSans;
+  font-size: 55px;
+  font-weight: bold;
+  color: white;
+  background-color: #EE4367;
+  height: 155.25px;
+  width: 155.25px;
+  text-align: center;
+  padding-top: 16px;
+  display: inline-block;
+  margin-top: 60px;
+  margin-bottom: 70px;
+  margin-left: 510px;
+}
+
+.month-blog {
+  font-weight: lighter;
+  font-size: 31px;
+}
+
+.title-paragraph {
+  color: #EE4367;
+  font-family: GillSans;
+  font-style: normal;
+  font-size: 20px;
+  padding-left: 175px;
+  padding-top: 40px;
+}
+
+.paragraph-story {
+  font-family: GillSans;
+  padding-left: 175px;
+  padding-top: 17px;
+  width: 1200px;
+  height: 125px;
+}
+
+.left-column-contact {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+}
+
+.contact-title {
+  font-family: GillSans;
+  font-size: 25px;
+  margin-left: 160px;
+  margin-top: 85px;
+}
+
+.contact-title p {
+  border-bottom: 2px solid black;
+  width: 330px;
+}
+
+.rectangle-name {
+  height: 50px;
+  width: 705px;
+  margin-top: 34px;
+  border: none;
+  background-color: #F5F5F5;
+}
+
+.rectangle-email {
+  height: 50px;
+  width: 705px;
+  margin-top: 34px;
+  background-color: #F5F5F5;
+  border: none;
+}
+
+.rectangle-company {
+  height: 50px;
+  width: 705px;
+  margin-top: 34px;
+  background-color: #F5F5F5;
+  border: none;
+}
+
+.rectangle-message {
+  height: 200px;
+  width: 705px;
+  margin-top: 34px;
+  background-color: #F5F5F5;
+  border: none;
+}
+
+.contact-button {
+  background-color: #EE4367;
+  color: white;
+  font-family: GillSans;
+  padding-top: 22px;
+  width: 167px;
+  height: 60px;
+  margin-top: 35px;
+  font-size: 10px;
+  margin-left: 160px;
+  text-align: center;
+}
+
+.contact {
+  display: flex;
+  flex-flow: row nowrap;
+} 
+
+.address-image {
+  background-image: url("../images/map.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 442px;
+  width: 400px;
+  margin-right: 200px;
+  margin-top: 217px;
+}
+
+.footer {
+  background-color: #EE4367;
+  margin-top: 110px;
+  padding-bottom: 15px;
+}
+
+.footer-logo img {
+  padding-left: 720px;
+  margin-top: 30px;
+}
+
+.address {
+  color: white;
+  font-family: GillSans;
+  text-align: center;
+  margin-top: 35px;
+  line-height: 10px;
+}
+
+.eventsy-contact {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+}
+
+.rectangle-newsletter {
+  height: 50px;
+  width: 705px;
+  margin-top: 34px;
+  margin-left: 80px;
+  background-color: #F56B88;
+  border: none;
+  border-color: #EE4367;
+}
+
+::placeholder {
+  font-family: GillSans;
+  font-size: 16px;
+  padding-left: 15px;
+}
+
+.newsletter-button {
+  background-color: white;
+  color: #EE4367;
+  font-family: GillSans;
+  padding-top: 16px;
+  text-align: center;
+  width: 100px;
+  height: 47.5px;
+  margin-top: 35px;
+}
+
+.form-row {
+  text-align: center;
+}
+
+.fa {
+  padding: 23px;
+  padding-left: 40px;
+  font-size: 30px;
+  width: 50px;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  margin-top: 11px;
+}
+
+.copyright {
+  font-family: GillSans;
+  text-align: center;
+  color: #FFFFFF;
+  margin-top: 17px;
+  margin-left: 23px;
+}
+
+.white-text {
+  color: white;
+}
+
+.black-text {
+  color: black;
+}

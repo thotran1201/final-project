@@ -1,0 +1,78 @@
+.left-column-contact {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+}
+  
+.contact-title {
+    font-family: GillSans;
+    font-size: 25px;
+    margin-left: 160px;
+    margin-top: 85px;
+}
+  
+.contact-title p {
+    border-bottom: 2px solid black;
+    width: 330px;
+}
+  
+.rectangle-name {
+    height: 50px;
+    width: 705px;
+    margin-top: 34px;
+    border: none;
+    background-color: #F5F5F5;
+}
+  
+.rectangle-email {
+    height: 50px;
+    width: 705px;
+    margin-top: 34px;
+    background-color: #F5F5F5;
+    border: none;
+}
+  
+.rectangle-company {
+    height: 50px;
+    width: 705px;
+    margin-top: 34px;
+    background-color: #F5F5F5;
+    border: none;
+}
+  
+.rectangle-message {
+    height: 200px;
+    width: 705px;
+    margin-top: 34px;
+    background-color: #F5F5F5;
+    border: none;
+}
+  
+.contact-button {
+    background-color: #EE4367;
+    color: white;
+    font-family: GillSans;
+    padding-top: 22px;
+    width: 167px;
+    height: 60px;
+    margin-top: 35px;
+    font-size: 10px;
+    margin-left: 160px;
+    text-align: center;
+}
+  
+.contact {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.address-image {
+    background-image: url("../images/map.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 442px;
+    width: 400px;
+    margin-right: 200px;
+    margin-top: 217px;
+}
